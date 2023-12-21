@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #04816e65; 
+    font-family: 'Kalnia', sans-serif; 
+}
+
+.container {
+    background-color: #ffffff;
+    width: 200vmin;
+    height: 80vmin;
+    padding: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    height: 35px; /* Adjust the button height */
+    width: 35px; /* Adjust the button width */
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50; /* Green background color */
+    color: #ffffff; /* White text color */
+    cursor: pointer;
+}
+
+#text-input {
+    margin-top: 15px; /* Adjust the margin */
+    border: 2px solid #0e0e0e; /* Add a border */
+    padding: 15px;
+    height: 60vh; /* Adjust the height */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+
+.input-wrapper {
+    margin-top: 10px;
+}
+
+label {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.input-wrapper input {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+
+.home-button {
+    display: block;
+    background-color: #85260b;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
